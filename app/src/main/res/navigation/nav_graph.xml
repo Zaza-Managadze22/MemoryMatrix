@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_game">
+    <fragment
+        android:id="@+id/navigation_game"
+        android:name="edu.sdsu.cs646.memory_matrix.GameFragment"
+        android:label="@string/fragment_title_game"
+        tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="edu.sdsu.cs646.memory_matrix.RulesFragment"
+        android:label="@string/fragment_title_rules"
+        tools:layout="@layout/fragment_rules" />
+</navigation>

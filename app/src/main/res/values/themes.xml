@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MemoryMatrix" parent="Theme.Material3.Light">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.MemoryMatrix" parent="Base.Theme.MemoryMatrix" />
+</resources>

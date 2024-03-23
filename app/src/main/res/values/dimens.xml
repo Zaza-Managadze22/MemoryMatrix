@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gameBoard_margin">25dp</dimen>
+    <dimen name="text_size">25sp</dimen>
+    <dimen name="instructions_text_size">40sp</dimen>
+</resources>
