@@ -12,7 +12,6 @@ class MemoryMatrixGame(private var startLevel: Int) {
 
     private var level: Int = startLevel
     private lateinit var grid: Array<BooleanArray>
-    private var memorizeTimer: Long = 0
     private var memorizePhase: Boolean = true
     private val userSelectedCells: MutableSet<Pair<Int, Int>> = mutableSetOf()
 
@@ -55,7 +54,6 @@ class MemoryMatrixGame(private var startLevel: Int) {
         initializeGrid()
         userSelectedCells.clear()
         selectRandomCells()
-        memorizeTimer = System.currentTimeMillis()
         memorizePhase = true
     }
 
