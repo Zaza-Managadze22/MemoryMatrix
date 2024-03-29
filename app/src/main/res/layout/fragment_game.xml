@@ -37,8 +37,6 @@
         android:layout_height="wrap_content"
         android:useDefaultMargins="true"
         android:layout_margin="@dimen/gameBoard_margin"
-        android:rowCount="3"
-        android:columnCount="3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/levelIndicator" >
