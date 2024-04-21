@@ -8,9 +8,8 @@
     <string name="level_number">Difficulty Level: %d/%d</string>
     <string name="instructions">
         Memorize the pattern of colored cells displayed on the grid during the Memorize Phase.
-        You have 3 seconds to memorize. Then, reproduce the pattern by selecting cells in the
-        Guessing Phase. Tap cells to toggle their color. Succeed by accurately replicating the
-        pattern, advancing to the next level. Test your memory and achieve the highest score!
+        You have 3 seconds to memorize. Then, reproduce the pattern by tapping cells in the
+        Guessing Phase. You have 10 seconds to guess. Test your memory and achieve the highest score!
     </string>
     <string name="play_again_question">Would you like to play again?</string>
     <string name="memory_image">Memory Image</string>

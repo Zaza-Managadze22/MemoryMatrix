@@ -14,9 +14,11 @@ class MemoryMatrixGame(private var startLevel: Int) {
     private lateinit var grid: Array<BooleanArray>
     private var memorizePhase: Boolean = true
     private val userSelectedCells: MutableSet<Pair<Int, Int>> = mutableSetOf()
+    var timesUp: Boolean = false
 
     val gameState: GameState
         get() {
+            if (timesUp) return GameState.FAIL
             for (pair in userSelectedCells) {
                 if (!grid[pair.first][pair.second]) {
                     return GameState.FAIL

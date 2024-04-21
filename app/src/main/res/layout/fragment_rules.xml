@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="@string/instructions"
         android:textSize="@dimen/text_size"
-        android:layout_margin="@dimen/gameBoard_margin"
+        android:layout_marginTop="@dimen/rulesMarginTop"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

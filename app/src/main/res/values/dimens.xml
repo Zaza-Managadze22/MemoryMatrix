@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="gameBoard_margin">25dp</dimen>
+    <dimen name="gameBoard_margin">20dp</dimen>
     <dimen name="text_size">25sp</dimen>
     <dimen name="instructions_text_size">40sp</dimen>
+    <dimen name="timerIndicatorSize">70dp</dimen>
+    <dimen name="timerIndicatorThickness">8dp</dimen>
+    <dimen name="rulesMarginTop">30dp</dimen>
 </resources>

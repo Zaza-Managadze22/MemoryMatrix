@@ -6,4 +6,6 @@
     <color name="red">#F00</color>
     <color name="green">#0F0</color>
     <color name="brown">#805124</color>
+    <color name="timerIndicatorColor">#FB0</color>
+    <color name="timerTrackColor">#D3D3D3</color>
 </resources>
